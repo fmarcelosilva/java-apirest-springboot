@@ -8,7 +8,8 @@ public class ApirestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApirestApplication.class, args);
-		
+
+		System.out.println();
 		System.out.println("===============================================");
 		System.out.println("Aplicação Inicializada com Sucesso             ");
 		System.out.println("===============================================");
