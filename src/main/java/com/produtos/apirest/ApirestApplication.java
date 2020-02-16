@@ -24,6 +24,8 @@ public class ApirestApplication {
 /* Informaçoes Uteis 
  * 
  * Video Aula no Youtube
+ * https://www.youtube.com/watch?v=bpBRFNKg8k4&list=PL8iIphQOyG-D2FP9wkg12AavzmVRWEcnJ&index=1
+ * https://www.youtube.com/watch?v=LmqVHTOqcxs&list=PL8iIphQOyG-D2FP9wkg12AavzmVRWEcnJ&index=2
  * https://www.youtube.com/watch?v=e0ItyfvbhMw
  * https://www.youtube.com/watch?v=9FICTNWTPxs
  * https://www.youtube.com/watch?v=HX4lheDqoiA
