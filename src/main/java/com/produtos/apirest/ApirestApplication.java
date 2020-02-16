@@ -19,3 +19,24 @@ public class ApirestApplication {
 	}
 
 }
+
+
+/* Informaçoes Uteis 
+ * 
+ * Video Aula no Youtube
+ * https://www.youtube.com/watch?v=e0ItyfvbhMw
+ * https://www.youtube.com/watch?v=9FICTNWTPxs
+ * https://www.youtube.com/watch?v=HX4lheDqoiA
+ * https://www.youtube.com/watch?v=FLSdkP33Lwo
+ *
+ * Iniciando API Rest com Spring Boot
+ * https://start.spring.io/
+ * 
+ * Aplicativos Necessários para o Projeto
+ * Eclipse
+ * JDK 1.8
+ * Postgresql
+ * Postman
+ * Git
+ * 
+ * */
