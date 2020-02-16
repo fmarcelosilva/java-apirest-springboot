@@ -53,17 +53,55 @@ public class ProdutoResource {
 		return produtoRepository.save(produto);
 	}
 	
-	@DeleteMapping("/produto")
-	@ApiOperation(value="Deleta um novo Produto")
-	public void deletaProduto(@RequestBody Produto produto) {
-		produtoRepository.delete(produto);
-	}
-	
 	@PutMapping("/produto")
 	@ApiOperation(value="Atualiza um novo Produto")
 	public Produto atualizaProduto(@RequestBody Produto produto) {
 				
 		return produtoRepository.save(produto);
 	}
+	
+	@DeleteMapping("/produto")
+	@ApiOperation(value="Deleta um novo Produto")
+	public void deletaProduto(@RequestBody Produto produto) {
+		produtoRepository.delete(produto);
+	}
 
 }
+
+
+/*
+
+GetMapping
+http://localhost:8080/api/produtos
+http://localhost:8080/api/produto/30
+
+PostMapping
+http://localhost:8080/api/produto
+Body JSON
+{
+    "nome": "Produto | Post",
+    "quantidade": 1.00,
+    "valor": 1.00,
+    "id": 999
+}
+
+PutMapping
+http://localhost:8080/api/produto
+Body JSON
+{
+    "nome": "Produto | Put",
+    "quantidade": 1.00,
+    "valor": 1.00,
+    "id": 999
+}
+
+DeleteMapping
+http://localhost:8080/api/produto
+{
+    "nome": "Produto | Put",
+    "quantidade": 1.00,
+    "valor": 1.00,
+    "id": 999
+}
+
+*/

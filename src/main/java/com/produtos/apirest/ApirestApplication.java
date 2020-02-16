@@ -14,6 +14,8 @@ public class ApirestApplication {
 		System.out.println("Aplicação Inicializada com Sucesso             ");
 		System.out.println("===============================================");
 		
+		System.gc();
+		
 	}
 
 }
