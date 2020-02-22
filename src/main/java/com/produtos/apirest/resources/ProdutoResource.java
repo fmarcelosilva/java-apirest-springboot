@@ -1,5 +1,6 @@
 package com.produtos.apirest.resources;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,6 +65,53 @@ public class ProdutoResource {
 	@ApiOperation(value="Deleta um novo Produto")
 	public void deletaProduto(@RequestBody Produto produto) {
 		produtoRepository.delete(produto);
+	}
+	
+	@GetMapping("/lista-bicurioso")
+	@ApiOperation(value="Retorna uma lista de Viado")
+	public List<String> listaBicurioso(){
+		
+		List<String> lista = new ArrayList<String>();
+	    lista.add("Danilo Dorabheu");
+	    lista.add("Raphael Takiebicha");
+	    lista.add("Andre Cukimata");
+	    lista.add("Leozinho Agilista");
+	    lista.add("Mailsinho Be-bicurios");
+		return lista;
+		
+	}
+	
+	@GetMapping("/lista-macho")
+	@ApiOperation(value="Retorna uma lista de Macho")
+	public List<String> listaMacho(){
+		
+		List<String> lista = new ArrayList<String>();
+	    lista.add("Chicão Macho");
+		return lista;
+		
+	}
+	
+	@GetMapping("/lista-japones-viado")
+	@ApiOperation(value="Retorna uma lista de Macho")
+	public List<String> listaJapa(){
+		
+		List<String> lista = new ArrayList<String>();
+	    lista.add("André");
+	    lista.add("Kuroda");
+		return lista;
+		
+	}
+	
+	@GetMapping("/conta-verdades")
+	@ApiOperation(value="Retorna uma lista de Macho")
+	public List<String> listaVerdade(){
+		
+		List<String> lista = new ArrayList<String>();
+	    lista.add("Bolacha tá com medo de Tomar um golpe do Paulão");
+	    lista.add("Danilo faz troca-troca com o Murilo");
+	    lista.add("Danilo faz troca-troca com o Murilo");
+		return lista;
+		
 	}
 
 }
